@@ -3,6 +3,7 @@ import styles from './cake.module.css'
 import NavBar from '../atoms/navbar/navbar'
 import BestSeller from '../molecules/bestSeller/bestSeller'
 import MayLike from '../molecules/maylike/mayLike'
+import Designer from '../molecules/designer/designer'
 
 export default function Home() {
     return (
@@ -19,9 +20,11 @@ export default function Home() {
                     <div className={styles.images}><img src="./images/plum-cake.jpg" alt="cake" height={300}/></div>
                 </div>
                 <h2> Surprise your loved one</h2>
-                <MayLike/>
+                <div className={styles.May}><MayLike/></div>
                 <h2> Our Best Seller</h2>
                 <BestSeller/>
+                <h2>Designer cake</h2>
+                <div className={styles.May}><Designer/></div>
             </div>
         </Fragment>
     )

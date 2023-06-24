@@ -6,14 +6,14 @@
     height: 35rem;
     align-items: center;
     justify-content: space-around;
-    overflow: auto;
+    
 
 }
 .image{
     border: 1rem solid whitesmoke;
     display: flex;
     width: 14rem;
-    height: 12rem;
+    height: 11rem;
     transition: transform 1s;
 
 }
@@ -25,9 +25,38 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 19rem;
+    height: 22rem;
     
 }
 .image:hover{
     transform: scale(1.1);
+}
+.para{
+    margin-bottom: 2rem;
+    border: 0.1rem solid whitesmoke;
+    background-color: rgb(230, 211, 211);
+    display: flex;
+    align-items: center;
+
+
+}
+.para1{
+    
+    display: flex;
+    align-items: center;
+}
+.para11{
+    margin-top: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+.part{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.part1{
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
 }

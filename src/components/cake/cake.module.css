@@ -17,3 +17,19 @@
 .images:hover {
   transform: scale(1.1);
 }
+/* .carousel-inner > .May >
+  .carousel-inner > .May>  {
+    width: 70%;
+    margin: auto;
+  } */
+.May{
+  overflow: auto;
+}
+h2{
+  margin: auto;
+  margin-top: 5rem;
+  margin-left: 4rem;
+  display: flex;
+  text-align: start;
+}
+

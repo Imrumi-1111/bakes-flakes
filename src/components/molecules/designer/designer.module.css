@@ -1,4 +1,4 @@
-.MayLike {
+.Designer {
   background-image: url("/public/images/backgr.jpg");
   margin-top: 1rem;
   border: 1rem solid white;
@@ -7,9 +7,7 @@
   width: fit-content;
   align-items: center;
   justify-content: space-around;
-  
 }
-
 .details {
   margin-top: 4rem;
   background-color: whitesmoke;
@@ -23,7 +21,7 @@
 }
 
 .images {
-    margin-top: 2rem;
+  margin-top: 2rem;
   border: 1rem solid whitesmoke;
   display: flex;
   align-items: center;
@@ -35,7 +33,7 @@
   transform: scale(1.1);
 }
 .part{
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
