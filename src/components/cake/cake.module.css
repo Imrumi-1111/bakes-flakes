@@ -1,0 +1,19 @@
+.Home {
+  border: 1rem solid white;
+}
+
+.slide {
+  margin-top: 4rem;
+  border: 0.1rem solid white;
+  display: flex;
+  height: 300;
+  gap: 1rem;
+  overflow: auto;
+}
+.images {
+  border: 1rem solid white;
+  transition: transform 1s;
+}
+.images:hover {
+  transform: scale(1.1);
+}

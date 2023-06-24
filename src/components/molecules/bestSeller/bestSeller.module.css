@@ -1,0 +1,33 @@
+.BestSeller{
+    background-image: url("/public/images/backgr.jpg");
+    margin-top: 1rem;
+    border: 0rem solid white;
+    display: flex;
+    height: 35rem;
+    align-items: center;
+    justify-content: space-around;
+    overflow: auto;
+
+}
+.image{
+    border: 1rem solid whitesmoke;
+    display: flex;
+    width: 14rem;
+    height: 12rem;
+    transition: transform 1s;
+
+}
+.details{
+    margin-top: 4rem;
+    background-color: white;
+    margin-left: 1rem;
+    border: 1rem solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 19rem;
+    
+}
+.image:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,8 @@
+.About{
+    margin: auto;
+    border: 1rem solid white;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 1rem 1rem;
+}
