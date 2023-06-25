@@ -4,6 +4,7 @@ import styles from './about.module.css'
 export default function About() {
     return (
         <Fragment>
+            
             <div className={styles.About}>
                 <p> We are exactly what you are looking for. Yes, we are an FSSAI certified online cake
                     and Bakery Company that specializes in delivering absolutely lip-smacking delicacies.
@@ -19,6 +20,7 @@ export default function About() {
                 <img src="./images/logo.png" alt="logo" />
 
             </div>
+            <div className={styles.rest}>
             <div>
                 <h2>Why To Choose Bakes&Flakes For Online Cake Delivery In India?</h2>
                 <p>Now, having a birthday cake, anniversary cake or wedding cake is completely a hassle-free task with
@@ -66,13 +68,14 @@ export default function About() {
                     Pull Me Up Cake: - We have amazing and magical Pull Me Up Cakes which provide a performance of dripping chocolate as soon
                     as you pull up the plastic covering. You will see a cake coming to its final decision before your eyes and at your comfort.</p>
             </div>
-            <div>
+            <div className={styles.rest1}>
                 <h2>Buy baked items other than cake</h2>
-                <p>We also sell pizza, baked momo, au gratin</p>
+                <p>We also sell pizza, baked momo, au gratin and many baked items on priority.</p>
             </div>
-            <div>
+            <div className={styles.rest1}>
                 <h2>How do we take order?</h2>
                 <p>Please call us 3days prior of your order or you can mail us if you have any query.</p>
+            </div>
             </div>
         </Fragment>
     )

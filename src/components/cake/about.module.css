@@ -4,5 +4,14 @@
     display: flex;
     justify-content: space-around;
     gap: 2rem;
-    padding: 1rem 1rem;
+}
+.rest{
+    border: 0.1rem solid white;
+}
+.rest1{
+    border: 0.1rem solid white;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 1rem;
 }
